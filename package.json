@@ -1,0 +1,39 @@
+{
+  "name": "yyyyjinying-button-test",
+  "version": "1.0.0",
+  "description": "button",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-button",
+    "button"
+  ],
+  "homepage": "http://github.com/react-component/tooltip",
+  "bugs": {
+    "url": "http://github.com/react-component/tooltip/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:react-component/tooltip.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "main": "lib/index",
+  "module": "es/index",
+  "scripts": {
+    "doc:dev": "umi-lib doc dev"
+  },
+  "devDependencies": {
+    "umi-library": "^1.6.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "peerDependencies": {
+    "react": "16.13.1"
+  }
+}
