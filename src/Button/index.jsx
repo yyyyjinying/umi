@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
+import classnames from "classnames";
 
-export default function(props) {
+import styles from "./index.module.less";
+import "./style.css";
+
+const Component = (props) => {
+  const [count, setCount] = useState(0);
   const { color, children } = props;
-  return <button style={{ color }}>{children}</button>;
-}
+  return (
+    <button
+      style={{ color }}
+      className={classnames(styles.large, styles.bold, "backgroud")}
+      onClick={() => setCount(count + 1)}
+    >
+      {children} click times:{count}
+    </button>
+  );
+};
+
+export default Component;

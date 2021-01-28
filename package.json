@@ -1,10 +1,8 @@
 {
   "name": "yyyyjinying-button-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "button",
   "keywords": [
-    "react",
-    "react-component",
     "react-button",
     "button"
   ],
@@ -18,14 +16,15 @@
   },
   "license": "MIT",
   "files": [
-    "dist",
-    "lib",
-    "es"
+    "dist"
   ],
-  "main": "lib/index",
-  "module": "es/index",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "unpkg": "./dist/index.md.js",
   "scripts": {
-    "doc:dev": "umi-lib doc dev"
+    "doc:dev": "umi-lib doc dev",
+    "doc:build": "umi-lib doc build",
+    "build": "umi-lib build"
   },
   "devDependencies": {
     "umi-library": "^1.6.0"
