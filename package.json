@@ -8,13 +8,13 @@
     "react-button",
     "button"
   ],
-  "homepage": "http://github.com/react-component/tooltip",
+  "homepage": "https://github.com/yyyyjinying/umi",
   "bugs": {
-    "url": "http://github.com/react-component/tooltip/issues"
+    "url": "https://github.com/yyyyjinying/umi"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-component/tooltip.git"
+    "url": "https://github.com/yyyyjinying/umi.git"
   },
   "license": "MIT",
   "files": [
